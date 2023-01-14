@@ -265,6 +265,12 @@
     font-size: 16px;
     margin: 24px 0;
  }
+ .logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10%;
+    margin-top: 50px;
+ }
 
 
 
