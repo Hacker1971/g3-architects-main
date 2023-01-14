@@ -198,7 +198,54 @@
  .top-side{
     margin-top: -180px;
     margin-left: 45%;
- }      
+ } 
+ .some{
+    margin-left: 10%;
+    margin-top: 145px;
+ }   
+ .some > h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+ }  
+ .some > p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 100px;
+ }
+
+ /* <!-------awards-side--> */
+ .award-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    margin-left: 10%;
+
+ }
+ .awards{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    padding: 45px;
+    text-align: center;
+ }
+ .awards:hover{
+    transform: rotate(-345deg);
+
+ }
+ .awards  > h1{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+ }
+ .awards > p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+ }
 
 
 
