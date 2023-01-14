@@ -176,6 +176,29 @@
     margin-bottom: -125px;
     margin-right: 20px;
  }
+            /* importent side */
+ .btn-02{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+    height: 200px;
+    border: 0;
+    padding: 45px;
+ } 
+ .btn-02 > h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+ }
+ .btn-02 > p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+ }    
+ .top-side{
+    margin-top: -180px;
+    margin-left: 45%;
+ }      
 
 
 
