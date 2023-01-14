@@ -246,7 +246,25 @@
     font-weight: 600;
     font-size: 20px;
  }
-
+ /* <!------sponcer--> */
+ .spons{
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin: 0 auto;
+ }
+ .spons > h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 180px;
+ }
+ .spons > p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0;
+ }
 
 
 
