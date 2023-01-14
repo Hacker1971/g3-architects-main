@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ /* header-hero-nav */
+ header{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1300px;
+ }
+ .hero-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+ }
+ .hero-nav > div > h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+ }
+ .right-nav > ol {
+    display: flex;
+    gap: 25px;
+ }
+ .right-nav > ol > li{
+    list-style: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+
+ }
+ .brand{
+    width: 862px;
+    height: 352px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .brand >h1 , h2{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+ }
+ .brand > p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .btn{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 53px;
+    margin-bottom: 50px;
+    
+ }
+ .banner{
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+ }
+ .banner >img{
+    margin-bottom: 45px;
+ }
