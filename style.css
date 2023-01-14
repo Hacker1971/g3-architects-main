@@ -70,3 +70,48 @@
  .banner >img{
     margin-bottom: 45px;
  }
+
+ /* aside  */
+ aside{
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+ }
+ .aside-left{
+    width: 600px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 85px;
+ }
+ .aside-right{
+    width: 537px;
+    height: 304px;
+ }
+ .aside-right > h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+ }
+ .Quick-list{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+ }
+ .aside-right > p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+ }
+ .Features{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+
+ }
