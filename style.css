@@ -388,3 +388,35 @@
  .border{
     margin-top: 200px;
  }
+
+
+
+
+                      /* @media only screen and (max-width: 600px) */
+  @media only screen and (max-width: 576px) {
+
+   .hero-nav{
+      flex-direction: column;
+      padding: 10px;
+   }
+   .brand >h1, h2 {
+      margin-left: -50%;
+      font-size: 30px;
+   }
+   .brand > p {
+      width: 40%;
+      text-align: center;
+   }
+   .btn {
+      margin-left: -50%;
+   }
+   .banner >img{
+      width: 30%;
+      height: 100%;
+   }
+
+
+
+
+
+  }                    
